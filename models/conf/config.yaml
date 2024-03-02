@@ -1,0 +1,4 @@
+model: 
+     name: DeepPavlov/rubert-base-cased
+data:
+  csv_path: data\data1.csv
