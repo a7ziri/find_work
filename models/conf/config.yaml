@@ -1,4 +1,13 @@
 model: 
-     name: DeepPavlov/rubert-base-cased
-data:
-  csv_path: data\data1.csv
+     name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+seed: 42
+project_name: sentence_sim
+output_path: models/e5-large_sencsim.pt
+data_path: data/all_data.pkl
+checkpoint_steps: 1000
+checkpoint_path : models/check/multilingual-e5-large_sencsim.pt
+param:
+     learning_rate: 2e-5
+     batch_size: 4
+     margin : 0.3
+     epochs: 3
