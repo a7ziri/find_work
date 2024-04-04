@@ -1,2 +1,4 @@
-data/data1.csv
-emb_for_model.npy
+data/
+outputs/
+wandb/
+emb/
