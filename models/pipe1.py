@@ -27,7 +27,7 @@ def main(cfg: DictConfig):
             features.append(batch_features)
 
     features = np.concatenate(features, axis=0)
-    np.save('emb_for_model.npy' , features)
+    np.save('emb_for_model_deep.npy' , features)
 
 if __name__ == "__main__":
     main()
