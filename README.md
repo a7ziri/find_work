@@ -12,17 +12,5 @@ Find Work — это инструмент на Python, созданный для
 Необходимые компоненты
 Python 3.10+
 
-Менеджер пакетов Pip
 
-Установка
-Клонируйте репозиторий:
 
-bash
-Copy
-git clone https://github.com/a7ziri/find_work.git  
-cd find_work  
-Установите зависимости:
-
-bash
-Copy
-pip install -r requirements.txt  
